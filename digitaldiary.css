@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    border: border-box;
+}
+
+.flip-container {
+    perspective: 1000px;
+    height:500px;
+}
+
+.flipper {
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 800px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-container.flip .flipper {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-image: url(Brown\ Vintage\ Journal\ Notebook\ Cover\ A4\ Document.png);
+    background-size:contain;
+    background-color: #fff;
+    color: black;
+}
+
+.front2 {
+    margin-left:500px;
+    background-image: url(FREE\ Ultimate\ Travel\ Bucket\ List\ Template.jpg);
+    background-size:contain;
+    color: black;
+}
+
+.back {
+    /*background-image: url(FREE\ Ultimate\ Travel\ Bucket\ List\ Template.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    transform: rotateY(180deg);*/
+}
+
+.journal{
+    text-align: center;
+    
+}

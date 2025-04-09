@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+h1{
+    padding-top: 25px;
+    background-color: #003049;
+    font-size: xx-large;
+    color: white;
+    height: 70px;
+}
+
+form{
+    text-align: center;
+    background-color: #fdf0d5;
+    height: 800px;
+}
+

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+.dest{
+    background-color: #780000;
+    height: 400px;
+    width: 1600px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dest1{
+    background-image: url(Mumbai.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:350px;
+    width:250px;
+    border-color: #fdf0d5;
+}
+
+.dest2{
+    background-image: url(bangalore.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:350px;
+    width:250px;
+    border-color: #fdf0d5;
+}
+
+.dest3{
+    background-image: url(Manali.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:350px;
+    width:250px;
+    border-color: #fdf0d5;
+}
+
+.dest4{
+    background-image: url(Jaipur\ photo\ ideas.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:350px;
+    width:250px;
+    border-color: #fdf0d5;
+}
+
+.DESTF{
+    background-color: #c1121f;
+    height: 400px;
+    width: 1600px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dest5{
+    background-image: url(Goahhh!!!🏖️🩱☀️🐚🌊.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:350px;
+    width:250px;
+    border-color: #fdf0d5;
+}
+
+.dest6{
+    background-image: url(8c9a6b42-d043-479f-bf55-29c3fed78d4b.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:350px;
+    width:250px;
+    border-color: #fdf0d5;
+}
+
+.dest7{
+    background-image: url(Uttar\ Pradesh\ उत्तरप्रदेश.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:350px;
+    width:250px;
+    border-color: #fdf0d5;
+}
+
+@keyframes ZOOMIN {
+    from {
+        margin-left: 5px;
+    }
+    to {
+        margin-left: 80px;
+    }
+}
+
+.dest {
+    animation: ZOOMIN 2s linear 0s infinite normal;
+}
+
+@keyframes ZOOMyay {
+    from {
+        margin-TOP: 5px;
+    }
+    to {
+        margin-top: 80px;
+    }
+}
+
+.DESTF {
+    animation: ZOOMyay 2s linear 0s infinite normal;
+}

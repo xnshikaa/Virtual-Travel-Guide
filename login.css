@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.adventure{
+    background-image: url(Download\ premium\ image\ of\ Adventure\ is\ out\ there\ mobile\ wallpaper\ template\ by\ audi\ about\ wallpaper\,\ mobile\ wallpaper\,\ background\,\ border\,\ and\ scenery\ 14904241.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:800px;
+}
+
+form{
+    text-align: center;
+}
+
+keyframes zoomIn {
+    from {
+        transform: scale(0); 
+        opacity: 0;
+    }
+    to {
+        transform: scale(1); 
+        opacity: 1;
+    }
+}
+
+.adventure{
+    animation: zoomIn 0.5s ease-in-out 0s forwards;
+}
